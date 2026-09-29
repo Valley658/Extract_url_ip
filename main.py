@@ -17,7 +17,7 @@ def get_ip_from_url(url: str):
         return hostname, "IP 주소를 찾을 수 없습니다 (DNS 조회 실패)."
 
 urls = [
-    "https://pastellive.co.kr"
+    ""
 ]
 
 for target_url in urls:
